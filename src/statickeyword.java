@@ -8,6 +8,9 @@ class Mobile{
     public void show(){
         System.out.println("Mobile brand is : " + brand + " and name is: " + name + " and price is: " + price);
     }
+    public static void show1(Mobile obj){       //static method
+        System.out.println("Mobile brand is : " + obj.brand + " and name is: " + name + " and price is: " + obj.price);
+    }   // cannot use non static variable in an static method but can use static variable
 }
 
 
@@ -30,5 +33,7 @@ public class statickeyword
 
         obj.show();
         obj1.show();
+        Mobile.show1(obj);
+
     }
 }
