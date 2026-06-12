@@ -39,9 +39,12 @@ public class statickeyword
 
         Mobile.name = "babaphone";
 
+        Monster obj2 = new Monster();
+
+
         obj.show();
         obj1.show();
         Mobile.show1(obj);
-
+        System.out.println(obj2.getName());
     }
 }
