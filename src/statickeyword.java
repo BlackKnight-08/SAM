@@ -3,8 +3,16 @@ class Mobile{
     String brand;
     int price;
     static String name;    //static variable is common for all
+    static    // Can be called only one time
+    {
+        name = "Phone";
+        System.out.println("Shhhh");
+    }
 
-
+    public Mobile(){
+        String brand = "Samsung";
+        int price = 10000;
+    }
     public void show(){
         System.out.println("Mobile brand is : " + brand + " and name is: " + name + " and price is: " + price);
     }
