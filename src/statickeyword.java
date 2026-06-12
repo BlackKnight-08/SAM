@@ -5,7 +5,7 @@ class Mobile{
     static String name;    //static variable is common for all
     static    // Can be called only one time
     {
-        name = "Phone";
+        name = "Iphone";
         System.out.println("Shhhh");
     }
 
