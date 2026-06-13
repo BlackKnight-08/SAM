@@ -31,11 +31,11 @@ public class Constructor {
     public static void main(String[] args) {
         Monster obj = new Monster();
         System.out.println("Monster level is: " + obj.getLevel() + " and name is : " + obj.getName());
-       /*
+
         obj.setLevel(1);
         obj.setName("Fenrir");
         System.out.println("Monster level is: " + obj.getLevel() + " and name is : " + obj.getName());
-       */
+
         Monster obj1 = new Monster(997, "Albatross");
 
         System.out.println("Monster level is: " + obj1.getLevel() + " and name is : " + obj1.getName());
